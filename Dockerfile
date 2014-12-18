@@ -21,4 +21,6 @@ RUN mkdir /app
 
 VOLUME /app
 
+EXPOSE 80 443
+
 WORKDIR /app
