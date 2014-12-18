@@ -16,6 +16,7 @@ RUN npm install -g grunt-cli
 
 ADD supervisord.conf /etc/supervisor/conf.d/
 ADD nginx.conf /etc/nginx/nginx.conf
+ADD websocket /etc/nginx/
 
 RUN mkdir /app
 
