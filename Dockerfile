@@ -2,7 +2,6 @@ FROM wannabe/ubuntu
 
 MAINTAINER Yury Borunov <yury@borunov.com>
 
-
 # Install Nginx
 
 RUN curl -sL https://deb.nodesource.com/setup | sudo bash -
